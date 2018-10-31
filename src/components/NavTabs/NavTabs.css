@@ -1,0 +1,55 @@
+.breadcrumb {
+    margin: 0 auto;
+    background-color: rgb(234, 230, 219);
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.breadcrumb-item {
+    color: rgb(172, 130, 109);
+    margin: 20px;
+}
+
+.breadcrumb-item.active {
+    color: rgb(63, 56, 37);
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(63, 56, 37);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(63, 56, 37);
+}
+
+@media only screen and (max-width: 376px) {
+    .breadcrumb {
+        padding: 10px;
+    }
+
+    .breadcrumb-item {
+        margin: 0 auto;
+        margin-left: 26px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .breadcrumb {
+        padding: 5px;
+    }
+    
+    .breadcrumb-item {
+        margin: 0 auto;
+        margin-left: 18px;
+    }
+}
+
